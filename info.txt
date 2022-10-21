@@ -1,0 +1,31 @@
+Clone : Bring repository from github to local machine
+add : Track files and changes in Git
+commit : Save files in Git
+push : Upload Git commits to remote repo, like github
+pull : Download changes from remote repo, to local
+
+git status 
+git log
+
+touch test.js ## Lägger till fil
+
+git checkout 8bb5b4e53d59bb46c625420a2a42e221ffc5d956
+
+git checkout master (eller main??)
+
+git branch (Visar vilken branch)
+
+git branch newBranch (skapart ny)
+
+git remote add origin https://github.com/nativealien/java-shotgun.git
+git remote set-url origin https://git-repo/new-repository.git (CHANGE)
+
+git remote -v
+
+git push -u origin master (main)
+
+git config credential.username "new_username" (LOCAL)
+git config --global credential.username "new_username" (GLOBAL)
+
+git init -b somename (INIT BRANCH NAME)
+git config --global -add init.defaultBranch somename (GLOBAL)
